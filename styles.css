@@ -1,0 +1,75 @@
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+#ingredients {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+    display: inline-block;
+    border: 2px solid blue;
+    width: 200px;
+}
+
+#recette {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    display: inline-block;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+#exclusivité img {
+    float: left;
+    margin-right: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#la-bardane {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    width: 1200px;
+}
+
+body {
+    color: blue;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.plan {
+    display:grid;
+    grid-template-columns: 400px 200px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}

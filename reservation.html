@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--Liaison au css bootstap avant styles.css-->
+        <link rel="stylesheet" href="styles.css">
+        <!--liaison au css-->
+        <meta name="viewport" content="width=device-width, initial-scale=1 ,shrink-to-fit=no">
+        <!--Mobile First-->
+        <title>Réservation en ligne</title>
+        <meta name="La restauration à 1 euros" description="Manger un bon repas de restauration à 1 euros">
+        <!--Referencement moteur de recherche-->
+    </head>
+<body>
+    <div class="container">
+        <h1>Réservation en ligne</h1>
+             <form method="post" action="mon-script.php" enctype="application/x-www-form-urlencoded" name="reservation">
+                  <p>
+                      <label for="nom">Votre nom : </label>
+                      <input type="text" id="nom" name="nom" required />
+                  </p>
+                   <p>
+                      <label for="prenom">Votre prénom : </label>
+                      <input type="text" id="prenom" name="prenom" required />
+                  </p>
+                   <p>
+                      <label for="nombre-de-reservation">Combien de personnes veulent déjeuner?</label>
+                      <select id="nombre-de-reservation" required>
+                          <option value="1">1 personne</option>
+                          <option value="2">2 personnes</option>
+                          <option value="3">3 personnes</option>
+                          <option value="4">4 personnes</option>
+                          <option value="5">5 personnes</option>
+                      </select>
+                  </p>
+                   <p>
+                         <label for="date">Indiquez la date de la réservation</label>
+                         <input type="date" id="date" name="date">
+                  </p>
+                   <p>
+                         <label for="mobile">Votre numéro de téléphone</label>
+                         <input type="tel" id="mobile" name="mobile" required>
+                  </p>
+                   <p>
+                        <label for="commentaire">Votre commentaire</label>
+                        <br>
+                        <textarea id="commentaire" rows="6" cols="100"></textarea>
+                   </p>
+    
+                </form>
+    </div>
+</body>
+</html>
